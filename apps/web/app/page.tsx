@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "ui";
-import { UserForm } from '../../ui/components/UserForm';
+import { UserForm } from '../../packages/components/UserForm';
 import styles from "../styles/index.module.css";
 
 export default function Web() {
