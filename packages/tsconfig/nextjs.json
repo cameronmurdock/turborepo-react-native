@@ -6,7 +6,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "components/*": ["../../packages/ui/src/components/*"],
+      "components/*": ["../../ui/components/UserForm/*"],
       "ui/*": ["../../packages/ui/src/*"]
     },
     "allowJs": true,
