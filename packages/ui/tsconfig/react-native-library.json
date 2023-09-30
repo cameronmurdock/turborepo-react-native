@@ -1,0 +1,16 @@
+// BEGIN: 5f3b4d5d6b7c
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "declaration": true,
+    "declarationDir": "./types",
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "noEmit": false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "lib", "types"]
+}
+// END: 5f3b4d5d6b7c

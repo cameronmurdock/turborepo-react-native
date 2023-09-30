@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState, SyntheticEvent } from 'react';
 
 export default function UserForm() {
-  const [name, setName] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState<string>('');
+  const [message, setMessage] = useState<string>('');
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: SyntheticEvent) => {
     e.preventDefault();
 
     try {
