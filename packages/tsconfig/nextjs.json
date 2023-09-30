@@ -2,7 +2,13 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Next.js",
   "extends": "./base.json",
+
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["../../packages/ui/src/components/*"],
+      "ui/*": ["../../packages/ui/src/*"]
+    }
     "allowJs": true,
     "declaration": false,
     "declarationMap": false,
